@@ -4,7 +4,7 @@ const User = require('../models/user')
 const passport = require('passport');
 const passportConfig = require('../passport');
 const JWT = require('jsonwebtoken');
-const frontEndRedirect = process.env.FRONT_END_REDIRECT
+const frontEndRedirect = process.env.FRONT_END_URL || "http://localhost:3000"
 const responseFormatter = require('../formatters/response')
 
 const secretKey = process.env.SECRET_KEY 
@@ -43,7 +43,7 @@ router.get(
     (req, res) => {
         return res
             .cookie('access_token', googlesignToken(req.user))
-            .redirect("http://localhost:3000")
+            .redirect(frontEndRedirect)
             //res.status(200).json({ isAuthenticated: true, user: { email, _id, token } });
 
     }
