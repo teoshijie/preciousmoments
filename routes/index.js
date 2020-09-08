@@ -13,6 +13,9 @@ module.exports = (app) => {
     const commentController = require('../controllers/comments')
     app.use('/comments', commentController);
 
+    const likedislikesController = require('../controllers/likedislikes')
+    app.use('/likedislikes', likedislikesController);
+
 }
 
 
