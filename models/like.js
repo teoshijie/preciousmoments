@@ -4,15 +4,15 @@ const Schema = mongoose.Schema;
 const likeSchema = mongoose.Schema({
    userId: {
        type: Schema.Types.ObjectId,
-       ref: 'User'
+       ref: 'user'
    },
    commentId: {
        type: Schema.Types.ObjectId,
-       ref: 'Comment'
+       ref: 'comment'
    },
    videoId: {
        type: Schema.Types.ObjectId,
-       ref: 'Video'
+       ref: 'video'
    }
 
 }, { timestamps: true })
