@@ -3,7 +3,7 @@ const router = express.Router();
 const { Like } = require("../models/like");
 const { Dislike } = require("../models/dislike");
 
-const { auth } = require("../middleware/auth");
+// const { auth } = require("../middleware/auth");
 
 //=================================
 //             Likes DisLikes
