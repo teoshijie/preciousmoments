@@ -19,11 +19,7 @@
 - [Developer Journey](#Developer-Journey)
 - [Future Development](#Future-Development)
 
-# Project 4
-- collaborators 
-1) Danny
-2) Jared
-3) Shi Jie
+# Project 4 collaborators - Danny, Jared, Shi Jie
 
 ## Introduction
 
