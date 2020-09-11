@@ -1,12 +1,9 @@
 # App Title - Precious moments
 
 ## Application links
--- (link to repo)
-- link to backend repo --> you're here
-- link to frontend repo --> https://github.com/teppy90/precious-moments-frontend
 
--- (link to deployment)
-- frontend deployed link ==> https://preciousmoment.herokuapp.com/
+- deployed link ==> https://preciousmoment.herokuapp.com/
+- link to frontend repo --> https://github.com/teppy90/precious-moments-frontend
 
 ## Table of Contents
 - [Introduction](#Introduction)
@@ -19,88 +16,46 @@
 - [Developer Journey](#Developer-Journey)
 - [Future Development](#Future-Development)
 
-# Project 4 collaborators - Danny, Jared, Shi Jie
+Project 4 collaborators - Danny, Jared, Shi Jie
 
 ## Introduction
 
+Just wanted to test ourselves with certain technologies and decided a video upload site would be the best way to include the use of them. 
+-insert story of how project was personally meaningful-
+-it's not tho-
 
 ## Project Approach
 
+Spent lots of time on slack throughout the day and met quite regularly on zoom to do the equivalent of standup and to merge code.
 
 ## Main Features
 1. Registration and login
-   - Includes authentication and encrypted password
-2. <span id='2-create-new-post'>Create new post</span>
-   - Required fields: Image link
-   - Non-required fields: Caption
-   - (Bonus): Hashtag function in caption similar to Instagram
-3. Create new comment
-   - User is able to add new comment in a particular post
-4. <span id='4-edit-post'>Edit post</span>
-   - Able to edit caption of a particular post user created
-   - User will not be able to edit caption of other user's post
-5. Edit comment
-   - Able to edit comments made by user
-   - User will not be able to edit comment made by other user
-6. <span id='6-delete-post'>Delete post</span>
-   - Able to delete a particular post that user created 
-   - User will not be able to delete posts made by other users
+   - Includes Google Oauth and encrypted password
+2. Upload Video
+   - User is able to upload videos
+4. Edit Video
+   - Able to edit title and description of a video uploaded by a particular user
+   - User will not be able to edit other user's videos.
+5. Delete Video
+   - Able to delete a particular video that user created 
+   - User will not be able to delete videos made by other users
+6. Create comment
+   - Able to post comments on videos
 7. Delete comment
-   - Able to delete a particular comment that user commented
-   - User will not be able to delete comments made by other users
-8. Dashboard to show all the memes, gifs and puns created by all the users
-   - This will show all the latest feed
-   - User will be able to 'like' and 'comment' individual post
-9. User dashboard to show all the latest feed posted by a particular user
-   - User will be able to 'like' and 'comment' individual post
-   - User will be able to [Create new post](#2-create-new-post), [Edit post](#4-edit-post) and [Delete post](#6-delete-post)
-10. React routing for multi-page views
-11. (Bonus): Able to search post
-      - Search by keywords in post's caption
-      - Search by hashtag
-      - Search by theme
-12. (Bonus): Able to search other users
-      - After searching, user is able to follow the other user
-13. (Bonus): Additional page to include third party API to get memes, gifs and puns
+   - Able to delete comments on videos made by user
+8. Like/Dislike feature
+   - Able to like/dislike videos/comments posted by user or other users.
+9. Dashboard to show all the videos uploaded
+   - Videos are sorted by category when uploaded
 
 ## User Journey Map
-
-### 1. Landing Page
-As a user, I want to know what this application is about when I first land onto this website.
-
-### 2. Registration Page
-As a user, I want to be able to register a new account.
-
-### 3. Login Page
-As a user, I want to be able to login to the application.
-
-<img src ="wireframes\log-in wireframe .png" width= "80%">
-
-### 4. Dashboard
-As a user, I want to be able to see all the memes, gifs and puns in this application.
-- Memes, gifs and puns that were created by users will be pushed to the Dashboard, as well as their [User Dashboard](#6-user-dashboard).
-
-### 5. Create Memes/Gifs/Puns Page
-As a user, I want to be able to create new memes, gifs and puns in this application.
-
-### <span id='6-user-dashboard'>6. User Dashboard</span>
-As a user, I want to be able to view all the memes, gifs and puns I have created in my own user dashboard.
-
-### 7. Edit Memes/Gifs/Puns
-As a user, I want to be able to edit the memes, gifs and puns that I have created.
-- User is able to edit caption and comments made by them.
-
-### 8. Delete Memes/Gifs/Puns
-As a user, I want to be able to delete the memes, gifs and puns that I have created.
-
-<img src ="wireframes\landing-page wireframe.png" width= "80%">
-
+-  I think can create a slideshow with the pages of site like  https://docs.google.com/presentation/d/e/2PACX-1vRxvfFPhro095iSjXvhexmGfgjIFfppQVHhWzHhiUXL0f11tWhS1TUpGyILHF6_2vUudr50FVFREjcn/pub?start=false&loop=false&delayms=3000
 
 ## Technology Used
 
 1) MongoDb / Mongoose
 2) React.js
-3) Authentication services ( session / passport.js)
+3) Authentication services
 4) Express.js
 5) Node.js
 6) Multer (uploading img)
@@ -110,8 +65,8 @@ As a user, I want to be able to delete the memes, gifs and puns that I have crea
  - memes api (https://api.imgflip.com/)
  - gif api (https://tenor.com/gifapi/documentation#quickstart-search)
  - puns/jokes api (https://rapidapi.com/webknox/api/jokes?endpoint=55c2a0a7e4b011e6e59410ca)
-10) AJAX
-11) JQUERY
+10) Axios
+11) JQUERYJAX
 12) MDBREACT CSS
 13) BOOTSTRAP 
 14) External source
@@ -121,24 +76,10 @@ As a user, I want to be able to delete the memes, gifs and puns that I have crea
 
 ### On CRUD
 Creating content with different specifications. 
-- Gif - Need to upload a image in .gif format in gif section
-- puns - descriptive / strings
-- memes - in https:// url string. 
-
-Fetching data
-- AJAX call to fetch in REACT component. 
-
-
-
 
 ## Bonus
 (if have time)
 Added features
-- A quick button to generate random pickup lines / memes / puns / gif
-- Update / Edit User profile
-- User can follow and being followed by other users
-- Send notification to user email whenever user is being followed and new content is created by their favourite users
-- Search function to search content based on themes. (Using Ajax call query)
-- Music tracks added for individual users
+-Live streaming!!
 
 
