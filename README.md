@@ -55,27 +55,15 @@ Spent lots of time on slack throughout the day and met quite regularly on zoom t
 
 1) MongoDb / Mongoose
 2) React.js
-3) Authentication services
+3) Authentication services (Google Oauth)
 4) Express.js
 5) Node.js
 6) Multer (uploading img)
 7) Heroku deployment ( for backend )
-8) github pages ( for frontend )
-9) Apis Used (IF NECESSARY AND FOR BONUS)
- - memes api (https://api.imgflip.com/)
- - gif api (https://tenor.com/gifapi/documentation#quickstart-search)
- - puns/jokes api (https://rapidapi.com/webknox/api/jokes?endpoint=55c2a0a7e4b011e6e59410ca)
+8) Cloudinary (upload videos)
 10) Axios
-11) JQUERYJAX
 12) MDBREACT CSS
-13) BOOTSTRAP 
-14) External source
-    - (if any, to be added)
-
-## Methodology
-
-### On CRUD
-Creating content with different specifications. 
+13) BOOTSTRAP
 
 ## Bonus
 (if have time)
