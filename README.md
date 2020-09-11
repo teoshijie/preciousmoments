@@ -1,5 +1,5 @@
 # App Title - Precious moments
-
+Project 4 collaborators - Danny, Jared, Shi Jie
 ## Application links
 
 - deployed link ==> https://preciousmoment.herokuapp.com/
@@ -8,21 +8,16 @@
 ## Table of Contents
 - [Introduction](#Introduction)
 - [Project Approach](#project-approach)
-- [Technology Used](#Technology-used)
-- [Methodology Used](#Methodology)
 - [Main Features](#Main-features)
 - [User Journey Map](#User-Journey-Map)
+- [Technology Used](#Technology-used)
 - [Bonus](#Bonus)
-- [Developer Journey](#Developer-Journey)
-- [Future Development](#Future-Development)
 
 Project 4 collaborators - Danny, Jared, Shi Jie
 
 ## Introduction
 
 Just wanted to test ourselves with certain technologies and decided a video upload site would be the best way to include the use of them. 
--insert story of how project was personally meaningful-
--it's not tho-
 
 ## Project Approach
 
@@ -54,13 +49,13 @@ Spent lots of time on slack throughout the day and met quite regularly on zoom t
 ## Technology Used
 
 1) MongoDb / Mongoose
-2) React.js
-3) Authentication services (Google Oauth)
-4) Express.js
-5) Node.js
-6) Multer (uploading img)
-7) Heroku deployment ( for backend )
-8) Cloudinary (upload videos)
+2) Express.js
+3) React.js
+4) Node.js
+5) Authentication services (Google Oauth)
+6) Multer (upload videos)
+7) Cloudinary (upload videos)
+8) Heroku deployment ( for backend )
 10) Axios
 12) MDBREACT CSS
 13) BOOTSTRAP
