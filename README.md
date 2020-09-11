@@ -1,9 +1,3 @@
-# Project 4
-- collaborators 
-1) Danny
-2) Jared
-3) Shi Jie
-
 # App Title - Precious moments
 
 ## Application links
@@ -25,7 +19,11 @@
 - [Developer Journey](#Developer-Journey)
 - [Future Development](#Future-Development)
 
-# Project scope
+# Project 4
+- collaborators 
+1) Danny
+2) Jared
+3) Shi Jie
 
 ## Introduction
 
